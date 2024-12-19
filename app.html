@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+<div class="container">
+    
+    <div class="stats__conrtainer">
+        <div class="stats__details">
+            <h1>Todo Done</h1>
+            <p>Keep it up!</p>
+            <div id="progress__bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div class="stats__numbers">
+            <p id="numbers">0/0</p>
+        </div>
+    </div>
+
+<form action="">
+    <input id="input" type="text" placeholder="Enter your task" autofocus>
+    <button id="btn" type="submit">+</button>
+</form>
+<ul class="task__list"></ul>
+</div>
+
+    <script src="script.js"></script>
+    <!-- animation -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
